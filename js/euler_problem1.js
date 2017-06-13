@@ -1,6 +1,3 @@
-// Messing with solution display within index.html
-document.getElementById('solutionText').innerHTML = 'test';
-
 var multipleArray = [];
 
 for (i = 0; i <= 1000; i++) {
@@ -18,3 +15,6 @@ var summedMultiples = multipleArray.reduce(function (accumulator, currentValue) 
 });
 
 console.log(summedMultiples);
+
+// Messing with solution display within index.html
+document.getElementById('solutionText1').innerHTML = summedMultiples;
